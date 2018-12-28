@@ -1,0 +1,234 @@
+/*
+@font-face {
+    font-family: 'pj_katakananormal';
+    src: url('../fonts/katakana-webfont.woff2') format('woff2'),
+         url('../fonts/katakana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pj_hiragananormal';
+    src: url('../fonts/hiragana-webfont.woff2') format('woff2'),
+         url('../fonts/hiragana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#recognized {
+	font-family: 'pj_hiragananormal';
+}
+*/
+@font-face {
+    font-family: 'pj_katakananormal';
+    src: url('../fonts/katakana_tfb-webfont.woff2') format('woff2'),
+         url('../fonts/katakana_tfb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pj_hiragananormal';
+    src: url('../fonts/hiragana_tfb-webfont.woff2') format('woff2'),
+         url('../fonts/hiragana_tfb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#draw_this,
+#recognized {
+	font-family: 'pj_hiragananormal';
+}
+
+body, html {
+	font-family: "Roboto";
+	padding: 0;
+	margin: 0;
+	/*background-image: url('../img/background.jpg');*/
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+a {
+	text-decoration: none !important;
+}
+
+.text-center {
+	text-align: center;
+}
+.btn {
+	display: inline-block;
+	border: 2px solid #638e63;
+	border-radius: 6px;
+	padding: 5px 20px;
+	font-size: 24px;
+	text-decoration: none !important;
+	background-color: #638e63;
+	color: #fff !important;
+	box-shadow: inset 0px 0px 3px 1px #ffffff, 0 3px 6px rgba(0,0,0,0.25);
+	font-family: "Verdana";
+}
+.btn-box {
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	border: 3px solid #638e63;
+	border-radius: 6px;
+	padding: 5px;
+	background-color: #638e63;
+	color: #fff !important;
+	font-weight: bold;
+	text-decoration: none !important;
+	margin: 0 auto;
+	box-shadow: inset 0px 0px 3px 1px #ffffff, 0 3px 6px rgba(0,0,0,0.25);
+}
+.start-button-wrapper {
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#splashscreen {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+
+#counter {
+	background-color: rgba(0,0,0,0.5);
+}
+#counter #countdown {
+	position: absolute;
+	top: 30%;
+	font-size: 100px;
+	color: #fff;
+	width: 100%;
+	text-shadow: 0 0 15px #fff;
+}
+img {
+	max-width: 100%;
+	margin: auto;
+}
+.hidden {
+	display: none;
+}
+#light-wrapper {
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+#score {
+	border: 5px solid #000;
+	padding: 5px;
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+#ending {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	font-family: "Courier New";
+	text-shadow: 0 0 15px #ff0;
+	background-color: rgba(0,0,0,0.7);
+}
+#scores ul {
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+}
+#scores li {
+	margin: 0; 
+	padding: 0;
+}
+#ending .title {
+	font-size: 40px;
+	
+}
+#game_over {
+	margin-top: 80px;
+}
+.strong {
+	font-weight: bold;
+}
+
+#score_form select {
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px solid #000;
+}
+.canvas-wrapper {
+	border: 1px solid #ccc;
+	background-color: rgba(255,255,255,1);
+	width: 288px;
+	height: 288px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+#background_image {
+	width: 288px;
+	height: 288px;
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+#canvas {
+	width: 288px;
+	height: 288px;
+	margin: auto;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+#draw_this,
+#recognized {
+	font-size: 40px;
+}
+#english {
+	font-size: 40px;
+}
+.results {
+	height: 57px;
+}
+
+
+#lesson {
+	display: none;
+}
+
+#practice,
+#flash-cards, 
+#reading-test,
+#writing-test,
+#pick-language,
+#pick-lesson {
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+#reading-test,
+#writing-test,
+#flash-cards,
+#practice {
+	top: 100%;
+}

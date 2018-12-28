@@ -1,0 +1,47 @@
+Node version: v8.11.2
+
+Cordova version: 8.1.1
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="japaneasy.io.twomartinis.apt" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Japaneasy</name>
+    <description>
+        Learn Japanese in the way it was meant to be learned. Practice writing, the right way, by drawing right on your screen while you follow an animated sample of how to write. Don't just learn Katakana, and Hiragana, master them!
+    </description>
+    <author email="support@pegastudios.com" href="http://pegastudios.com">
+        PEGA Studios
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="orientation" value="portrait" />
+    <icon src="res/icon.png" />
+    <icon height="152" platform="ios" src="res/icon/ios/apple-touch-icon-152x152.png" width="152" />
+    <icon height="120" platform="ios" src="res/icon/ios/apple-touch-icon-120x120.png" width="120" />
+    <icon height="76" platform="ios" src="res/icon/ios/apple-touch-icon-76x76.png" width="76" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <plugin name="cordova-plugin-tesseract-ocr" spec="0.0.3" />
+    <plugin name="cordova-plugin-browsersync" spec="^1.1.0" />
+</widget>
+
+
+Plugins: 
+
+cordova-plugin-browsersync,cordova-plugin-tesseract-ocr,cordova-plugin-whitelist
+
+No Platforms Currently Installed
+
