@@ -20,3 +20,5 @@ This adds the browser sync plugin that you can use to do testing of your app in 
 ## Running browsersync
 `cordova run browser -- --live-reload`
 
+## More plugins
+https://cordova.apache.org/plugins/
