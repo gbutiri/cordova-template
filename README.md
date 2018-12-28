@@ -9,16 +9,21 @@ Install cordova according to their documentation found here https://cordova.apac
 
 ## Add platforms
 After checking it out, run
-``cordova platform add browser``
+`cordova platform add browser`
+
 `cordova platform add ios`
+
 `cordova platform add android`
+
 
 # Add plugins
 `cordova plugin add cordova-plugin-browsersync`
+
 This adds the browser sync plugin that you can use to do testing of your app in a browser without the need for emulators, or devices.
 
 ## Running browsersync
-```cordova run browser -- --live-reload```
+`cordova run browser -- --live-reload`
+
 
 ## More plugins
 https://cordova.apache.org/plugins/
