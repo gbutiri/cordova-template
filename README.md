@@ -17,8 +17,8 @@ After checking it out, run
 `cordova platform add android`
 
 # Add plugins
-
 `cordova plugin add cordova-plugin-browsersync`
+
 This adds the browser sync plugin that you can use to do testing of your app in a browser without the need for emulators, or devices.
 
 ## Running browsersync
