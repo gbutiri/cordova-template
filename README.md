@@ -9,7 +9,6 @@ Install cordova according to their documentation found here https://cordova.apac
 
 ## Add platforms
 After checking it out, run
-
 `cordova platform add browser`
 
 `cordova platform add ios`
