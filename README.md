@@ -7,6 +7,9 @@ Set up the environment
 ## Cordova Setup
 Install cordova according to their documentation found here https://cordova.apache.org/docs/en/latest/guide/cli/
 
+## Update your congig.xml file
+Don't forget to update the fields here regarding your company and product information.
+
 ## Add platforms
 After checking it out, run
 
